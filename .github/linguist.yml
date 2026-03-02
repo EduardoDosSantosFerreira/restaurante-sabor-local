@@ -1,0 +1,20 @@
+# Configuração para o GitHub Linguist
+overrides:
+  - pattern: "*.jsx"
+    linguist-language: JavaScript
+  
+  - pattern: "src/**/*.jsx"
+    linguist-language: JavaScript
+  
+  - pattern: "src/components/**/*.jsx"
+    linguist-language: JavaScript
+
+vendored:
+  - node_modules/
+  - build/
+  - dist/
+  - public/
+
+generated:
+  - package-lock.json
+  - yarn.lock

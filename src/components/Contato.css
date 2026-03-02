@@ -1,0 +1,42 @@
+﻿.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-lg);
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.1rem;
+}
+
+.info-item i {
+    width: 30px;
+    color: var(--secondary-color);
+    font-size: 1.4rem;
+}
+
+.contact-wpp-btn {
+    align-self: flex-start;
+    margin-top: 1rem;
+}
+
+.map-placeholder iframe {
+    width: 100%;
+    height: 280px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+@media (max-width: 992px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}

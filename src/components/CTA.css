@@ -1,0 +1,26 @@
+﻿.cta-section {
+    background: linear-gradient(145deg, var(--secondary-color), #ff9f1a);
+    color: white;
+    text-align: center;
+}
+
+.cta-title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: var(--spacing-sm);
+}
+
+.cta-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: var(--spacing-md);
+    opacity: 0.9;
+}
+
+.cta-container .btn-whatsapp {
+    background-color: white;
+    color: var(--primary-color);
+}
+
+.cta-container .btn-whatsapp:hover {
+    background-color: #f0f0f0;
+}

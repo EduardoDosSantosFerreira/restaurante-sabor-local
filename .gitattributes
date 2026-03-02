@@ -1,0 +1,17 @@
+# Forçar arquivos .jsx como JavaScript (React)
+*.jsx linguist-language=JavaScript
+
+# Arquivos .js também como JavaScript
+*.js linguist-language=JavaScript
+
+# CSS continua como CSS
+*.css linguist-language=CSS
+
+# HTML continua como HTML
+*.html linguist-language=HTML
+
+# Pastas que devem ser ignoradas na contagem de linguagem
+node_modules/* linguist-vendored
+build/* linguist-vendored
+dist/* linguist-vendored
+public/* linguist-vendored

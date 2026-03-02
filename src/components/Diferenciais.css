@@ -1,0 +1,35 @@
+﻿.section-diff {
+    background-color: var(--light-bg);
+}
+
+.differentials-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: var(--spacing-md);
+}
+
+.diff-item {
+    background: white;
+    padding: 1.2rem 1.5rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+    border: 1px solid rgba(0,0,0,0.03);
+}
+
+.diff-item i {
+    color: var(--secondary-color);
+    font-size: 1.6rem;
+}
+
+.diff-item span {
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .differentials-list {
+        grid-template-columns: 1fr;
+    }
+}

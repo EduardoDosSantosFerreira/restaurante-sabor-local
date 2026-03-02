@@ -1,0 +1,65 @@
+﻿.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-md);
+}
+
+.service-card {
+    background: var(--white);
+    border-radius: var(--border-radius);
+    padding: 2rem 1.5rem;
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+    text-align: center;
+    border: 1px solid var(--gray-light);
+    position: relative;
+    border-bottom: 4px solid var(--secondary-color);
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--box-shadow-hover);
+}
+
+.card-icon {
+    font-size: 2.8rem;
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-sm);
+}
+
+.service-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+.service-card p {
+    color: var(--gray);
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+}
+
+.price-tag {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+    margin: 0.5rem 0;
+}
+
+.btn-card-wpp {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    transition: var(--transition);
+    border: none;
+    cursor: pointer;
+}
+
+.btn-card-wpp:hover {
+    background-color: #20b859;
+    transform: scale(1.05);
+}
